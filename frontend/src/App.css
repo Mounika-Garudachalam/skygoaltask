@@ -1,0 +1,25 @@
+/* HomePage */
+body{
+  overflow: hidden;
+}
+.homepage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.button-wrapper{
+  border:2px solid #007bff;
+  display: flex;
+  flex-direction: column;
+  padding:100px;
+  border-radius: 10px;
+}
+.btn-custom{
+  width:200px;
+  margin-bottom: 10px;
+}
+
+/* Register */

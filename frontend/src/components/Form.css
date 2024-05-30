@@ -1,0 +1,43 @@
+.entryarea{
+    position:relative;
+    margin-bottom: 20px; /*add some spacing between input fields*/
+}
+input,textarea{
+    width:100%;
+    font-size: 20px;
+    line-height: 30px;
+    outline:none;
+    border-radius: 10px;
+    border:2px solid black;
+    transition: 0.1s ease;  /*transition for border and color change*/
+    padding:0 10px;
+    background: transparent;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+input:focus,
+input:valid{
+    color:#19118b;
+    border:2px solid #19118b;
+}
+.formpage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.form-wrapper{
+    border:2px solid #007bff;
+    padding:80px;
+    border-radius: 10px;
+    text-align: center;   /*center align the button*/
+}
+.formbutton{
+    width:90%;
+}
+.error-message{
+    color:red;
+    position:absolute;
+    bottom:-20px;
+    left:0;
+}
